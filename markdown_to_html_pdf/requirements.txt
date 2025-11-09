@@ -1,0 +1,18 @@
+# Core dependencies
+fastapi>=0.109.0
+uvicorn>=0.27.0
+python-multipart>=0.0.9
+
+# Markdown processing
+markdown2>=2.4.10
+Pygments>=2.17.2
+
+# PDF generation
+weasyprint>=60.1
+cairocffi>=1.6.1
+cffi>=1.16.0
+
+# Development (optional)
+python-dotenv>=1.0.0  # For environment variables
+pytest>=7.4.0  # For testing
+httpx>=0.26.0  # For async HTTP requests in tests
